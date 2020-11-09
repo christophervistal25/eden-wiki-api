@@ -13,9 +13,25 @@ use App\Models\Category;
 
 
 
+
 $router->group(['prefix' => 'api/'], function () use($router) {
 	$router->get('collection/types', 'CollectionController@index');
-	$router->get('/item/{main}/{type}', 'ItemController@show');
+	$router->get('item/{main}/{type}', 'ItemController@items');
+	$router->get('item/{main}/{type}/{page}', 'ItemController@paginate');
+	$router->get('search/item/{keyword}', 'ItemController@search');
+
+	$router->post('create/item', 'ItemController@store');
+	$router->put('item/edit/{id}', 'ItemController@update');
+	$router->get('show/item/{id}', 'ItemController@show');
+
+	$router->post('register', 'AuthController@register');
+	$router->post('login', 'AuthController@login');
+
+	$router->get('category', 'CategoryController@categories');
+	$router->get('category/{id}', 'CategoryController@show');
+	$router->post('category/create', 'CategoryController@store');
+	$router->put('category/edit/{id}', 'CategoryController@update');
+	
 
 	// $router->group(['prefix' => 'equipments', 'namespace' => 'Equipments'], function () use ($router) {
 	// 	$router->get('/armors', 'ArmorController@index');
