@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Item extends Model 
+class Item extends Model
 {
 
     /**
@@ -13,13 +13,11 @@ class Item extends Model
      * @var array
      */
     protected $fillable = [
-        'id', 'category_id', 'equip_id', 'name', 'description', 'gender', 'level', 'kind', 'job'
+        'id', 'equip_id', 'name', 'description', 'gender', 'level', 'sub_category_id', 'job'
     ];
 
-    public function category()
+    public function sub_category()
     {
-        return $this->belongsTo('App\Models\Category');
+        return $this->belongsTo('App\Models\SubCategory');
     }
-
-   
 }

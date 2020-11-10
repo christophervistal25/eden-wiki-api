@@ -12,8 +12,7 @@ class CollectionController extends Controller
     public function index()
     {
         return Category::with(['sub_category' => function ($query) {
-            $query->select('category_id', 'kind')->distinct();
-        }])->get();
-        
+            $query->select('category_id', 'name')->distinct();
+        }])->onlyActive()->get();
     }
 }
