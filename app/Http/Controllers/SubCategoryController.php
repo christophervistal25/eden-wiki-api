@@ -27,7 +27,6 @@ class SubCategoryController extends Controller
         $categoryIds = Category::get(['id'])->pluck('id')->toArray();
         $this->validate($request, [
             'name'        => 'required|unique:sub_categories',
-            'description' => 'required',
             'category_id' => 'required|in:' . implode(',', $categoryIds),
             'status'      => 'required|in:' . implode(',', SubCategory::$statuses),
         ], [], ['category_id' => 'category']);

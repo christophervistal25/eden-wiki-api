@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -12,15 +13,15 @@ class AuthController extends Controller
     public function login(Request $request)
     {
 
-          //validate incoming request 
-          $this->validate($request, [
+        //validate incoming request 
+        $this->validate($request, [
             'email' => 'required|string',
             'password' => 'required|string',
         ]);
 
         $credentials = $request->only(['email', 'password']);
 
-        if (! $token = Auth::attempt($credentials)) {
+        if (!$token = Auth::attempt($credentials)) {
             return response()->json(['message' => 'Unauthorized'], 401);
         }
 
@@ -40,5 +41,4 @@ class AuthController extends Controller
 
         return $this->respondWithToken($token);
     }
-
 }
