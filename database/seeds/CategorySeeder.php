@@ -53,15 +53,17 @@ class CategorySeeder extends Seeder
                     'category_id' => $cat->id
                 ]);
                 Item::updateOrCreate(
-                    ['equip_id' => $id],
+                    [
+                        'name' => $data['name'][$key]
+                    ],
                     [
                         'equip_id'        => $id,
-                        'name'            => $data['name'][$key],
+                        'name'            => trim(str_replace('@', ' ', $data['name'][$key])),
                         'description'     => $data['description'][$key],
                         'job'             => str_replace('JOB_', '', $data['job'][$key]),
                         'gender'          => str_replace('SEX_', '', $data['gender'][$key]),
-                        'level'           => $data['level'][$key],
-                        'sub_category_id' => $sub_category->id,
+                        'level'           => (int) $data['level'][$key],
+                        'sub_category_id' => (int) $sub_category->id,
                     ]
                 );
             }

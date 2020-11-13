@@ -15,8 +15,26 @@ class ItemController extends Controller
     {
         return Item::with(['sub_category:id,name,category_id', 'sub_category.category:id,name'])
             ->orderBy('created_at', 'DESC')
-            ->get()
-            ->take(5);
+            ->get();
+
+        $items = Item::with(['sub_category:id,name,category_id', 'sub_category.category:id,name'])
+            ->orderBy('created_at', 'DESC')
+            ->get();
+
+        $total_items = $items->count();
+        $pagination_total = (int) ceil($total_items / 10);
+
+        if ($page != 1) {
+            $paginated = $items->skip(($page - 1) * 10)->take(10);
+        } else {
+            $paginated = $items->take(10);
+        }
+
+        return [
+            'total_items'      => $total_items,
+            'pagination_total' => $pagination_total,
+            'items'            => $paginated,
+        ];
     }
 
     public function items(string $main, string $type)
@@ -27,11 +45,11 @@ class ItemController extends Controller
         })->with('sub_category', 'sub_category.category')->get();
 
 
-        $noOfItems = (int) ceil($items->count() / 10);
+        $noOfItems = (int) ceil($items->count() / 12);
 
         return [
             'pagination_total' => $noOfItems,
-            'items' => $items->take(10),
+            'items' => $items->take(12),
         ];
     }
 
@@ -41,7 +59,7 @@ class ItemController extends Controller
             $query->where('name', strtoupper($type));
         })->with('sub_category', 'sub_category.category')->get();
 
-        $pagination_total = (int) ceil($items->count() / 10);
+        $pagination_total = (int) ceil($items->count() / 12);
         $total_items = $items->count();
         $next = null;
         $previous = null;
@@ -56,9 +74,9 @@ class ItemController extends Controller
 
 
         if ($page != 1) {
-            $paginated = $items->skip(($page - 1) * 10)->take(10);
+            $paginated = $items->skip(($page - 1) * 12)->take(12);
         } else {
-            $paginated = $items->take(10);
+            $paginated = $items->take(12);
         }
         return [
             'pagination_total' => $pagination_total,
@@ -74,67 +92,5 @@ class ItemController extends Controller
         return Item::with(['sub_category', 'sub_category.category'])
             ->where('name', 'like', '%' . $keyword . '%')
             ->get();
-    }
-
-    public function show(int $id)
-    {
-        return Item::with(['sub_category:id,name,category_id', 'sub_category.category:id,name'])->find($id);
-    }
-
-    public function store(Request $request)
-    {
-
-        $sub_category_ids = SubCategory::get('id')
-            ->pluck('id')
-            ->toArray();
-
-        $this->validate($request, [
-            'name'            => 'required',
-            'description'     => 'required',
-            'gender'          => 'required|in:' . implode(',', ['MALE', 'FEMALE']),
-            'level'           => 'required',
-            'sub_category_id' => 'required|in:' . implode(',', $sub_category_ids),
-            'job'             => 'required',
-        ], [], ['sub_category_id' => 'category / sub - category']);
-
-        $item = Item::create([
-            'category_id'     => $request->category_id,
-            'name'            => $request->name,
-            'description'     => $request->description,
-            'gender'          => $request->gender,
-            'level'           => $request->level,
-            'sub_category_id' => $request->sub_category_id,
-            'job'             => $request->job,
-        ]);
-
-        return $this->show($item->id);
-    }
-
-    public function update(Request $request, int $id)
-    {
-
-        $sub_category_ids = SubCategory::get('id')
-            ->pluck('id')
-            ->toArray();
-
-        $this->validate($request, [
-            'name'            => 'required',
-            'description'     => 'required',
-            'gender'          => 'required|in:' . implode(',', ['MALE', 'FEMALE']),
-            'level'           => 'required',
-            'sub_category_id' => 'required|in:' . implode(',', $sub_category_ids),
-            'job'             => 'required',
-        ], [], ['sub_category_id' => 'category / sub - category']);
-
-        $item                  = Item::find($id);
-        $item->name            = $request->name;
-        $item->description     = $request->description;
-        $item->gender          = $request->gender;
-        $item->level           = $request->level;
-        $item->sub_category_id = $request->sub_category_id;
-        $item->job             = $request->job;
-        $item->save();
-
-        return $item;
     }
 }

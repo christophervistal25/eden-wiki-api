@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use App\Http\Controllers;
 use App\User;
+
 
 class AuthController extends Controller
 {
@@ -28,12 +28,33 @@ class AuthController extends Controller
         return $this->respondWithToken($token);
     }
 
+    public function profile()
+    {
+        return auth()->user();
+    }
+
+    public function logout()
+    {
+        auth()->logout(true);
+        return response()->json(['message' => 'successfully logout']);
+    }
+
+    public function refresh()
+    {
+        return $this->respondWithToken(auth()->refresh());
+    }
+
     public function register(Request $request)
     {
-        $credentials = $request->only(['email', 'password']);
+        $this->validate($request, [
+            'name'     => 'required',
+            'email'    => 'required|unique:users',
+            'password' => 'required',
+        ]);
 
         $user =  User::create([
-            'email' => $request->email,
+            'name'     => $request->name,
+            'email'    => $request->email,
             'password' => app('hash')->make($request->password),
         ]);
 

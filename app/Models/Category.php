@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
 
 
 class Category extends Model
@@ -14,7 +15,7 @@ class Category extends Model
      * @var array
      */
     protected $fillable = [
-        'id', 'name', 'description'
+        'id', 'name', 'description', 'status'
     ];
 
     //  public function sub_category()

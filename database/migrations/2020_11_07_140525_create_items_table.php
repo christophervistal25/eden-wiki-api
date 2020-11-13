@@ -19,8 +19,8 @@ class CreateItemsTable extends Migration
             $table->string('name');
             $table->string('description')->nullable();
             $table->string('gender');
-            $table->string('level');
-            $table->string('sub_category_id');
+            $table->integer('level');
+            $table->integer('sub_category_id');
             $table->string('job');
             $table->enum('status', ['active', 'in-active']);
             $table->timestamps();
