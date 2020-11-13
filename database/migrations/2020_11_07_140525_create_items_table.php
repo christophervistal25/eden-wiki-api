@@ -22,7 +22,7 @@ class CreateItemsTable extends Migration
             $table->integer('level');
             $table->integer('sub_category_id');
             $table->string('job');
-            $table->enum('status', ['active', 'in-active']);
+            $table->enum('status', ['active', 'in-active'])->default('active');
             $table->timestamps();
         });
     }
