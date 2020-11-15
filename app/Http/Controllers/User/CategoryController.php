@@ -15,7 +15,7 @@ class CategoryController extends Controller
     {
         // return Cache::rememberForever('user_category', function () {
         return Category::with(['sub_category' => function ($query) {
-            $query->select('category_id', 'name')->where('status', 'active');
+            $query->select('category_id', 'name', 'status')->where('status', 'active');
         }])->where('status', 'active')
             ->get(['id', 'name', 'description', 'status', 'created_at']);
         // });
@@ -27,7 +27,7 @@ class CategoryController extends Controller
         return Category::with(['sub_category' => function ($query) {
             $query->where('status', 'active');
         }, 'sub_category.items' => function ($query) {
-            $query->where('status', 'active');
+            $query->where('status', 'active')->orderBy('level');
         }])->find($category);
         // });
         // return $items;
