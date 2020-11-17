@@ -15,13 +15,19 @@ class CreateItemsTable extends Migration
     {
         Schema::create('items', function (Blueprint $table) {
             $table->id();
-            $table->string('equip_id')->nullable();
             $table->string('name');
             $table->string('description')->nullable();
             $table->string('gender');
             $table->integer('level');
             $table->integer('sub_category_id');
             $table->string('job');
+            $table->string('icon');
+            $table->integer('ability_min');
+            $table->integer('ability_max');
+            $table->string('effect_1');
+            $table->string('effect_2');
+            $table->string('effect_3');
+            $table->string('handed');
             $table->enum('status', ['active', 'in-active'])->default('active');
             $table->timestamps();
         });

@@ -1,0 +1,10 @@
+Weapons --
+A Weapon is a type of item that can be equipped and used to attack monsters and in certain situations, other players. One handed weapons can be used with a shield, and two handed weapons cannot be used with a shield.
+Vagrants, similar to Mercenaries, use one-handed swords or axes with a shield.
+Mercenaries, Knights, and Blades use swords and axes. Mercenaries use one-handed swords or axes. Knights use Two Handed Swords or Axes. Blades use two swords or axes, or even one of each.
+Assists, Billposters, and Ringmasters use Sticks and Knuckles.
+Magicians, Elementors, and Psykeepers use wands and staves to aid them in casting spells. Psykeeper skills require a wand, Elementor skills require a staff, and Magicians are free to choose.
+Acrobats, Rangers, and Jesters use either Bows or Yoyos. Rangers use bows and Jesters primarily use Yoyos but some (known as Bow Jesters) use bows.
+
+Armors --
+    Armor is the equipment that a person can wear, it is generally preferred by the players to use 'sets' which are special pieces of equipment that can add statistics.

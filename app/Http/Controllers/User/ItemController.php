@@ -21,8 +21,8 @@ class ItemController extends Controller
     public function paginate(string $main, string $type, string $page)
     {
         $items = Item::whereHas('sub_category', function ($query) use ($type) {
-            $query->where('name', 'like', "%" . rawurldecode(strtoupper($type)) . "%");
-        })->with('sub_category', 'sub_category.category')->orderBy('level')->get();
+            $query->where('name', rawurldecode($type));
+        })->orderBy('level')->get();
 
         $pagination_total = (int) ceil($items->count() / 12);
         $total_items = $items->count();
