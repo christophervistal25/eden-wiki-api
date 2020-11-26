@@ -22,12 +22,13 @@ class CreateItemsTable extends Migration
             $table->integer('sub_category_id');
             $table->string('job');
             $table->string('icon');
-            $table->integer('ability_min');
-            $table->integer('ability_max');
+            $table->integer('ability_min')->nullable();
+            $table->integer('ability_max')->nullable();
             $table->string('effect_1');
             $table->string('effect_2');
             $table->string('effect_3');
             $table->string('handed');
+            $table->integer('set_id')->nullable();
             $table->enum('status', ['active', 'in-active'])->default('active');
             $table->timestamps();
         });

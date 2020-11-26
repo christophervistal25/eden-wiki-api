@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSubCategoriesTable extends Migration
+class CreateSetsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,12 @@ class CreateSubCategoriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('sub_categories', function (Blueprint $table) {
+        Schema::create('sets', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('category_id');
             $table->string('name');
-            $table->string('description')->nullable();
-            $table->longText('content')->nullable();
-            $table->enum('status', ['active', 'in-active'])->default('active');
-            $table->tinyInteger('type')->default(1);
+            $table->string('type');
+            $table->json('parts');
+            $table->json('effects');
             $table->timestamps();
         });
     }
@@ -32,6 +30,6 @@ class CreateSubCategoriesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sub_categories');
+        Schema::dropIfExists('sets');
     }
 }

@@ -17,7 +17,10 @@ class CreateCategoriesTable extends Migration
             $table->id();
             $table->string('name');
             $table->text('description')->nullable();
+            $table->longText('content')->nullable();
             $table->enum('status', ['active', 'in-active'])->default('active');
+            $table->tinyInteger('type')->default(1);
+
             $table->timestamps();
         });
     }

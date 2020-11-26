@@ -13,11 +13,16 @@ class Item extends Model
      * @var array
      */
     protected $fillable = [
-        'id', 'name', 'description', 'gender', 'level', 'sub_category_id', 'job', 'icon', 'ability_max', 'ability_min', 'effect_1', 'effect_2', 'effect_3', 'handed'
+        'id', 'name', 'description', 'gender', 'level', 'sub_category_id', 'job', 'icon', 'ability_max', 'ability_min', 'effect_1', 'effect_2', 'effect_3', 'handed', 'set_id', 'status'
     ];
 
     public function sub_category()
     {
         return $this->belongsTo('App\Models\SubCategory', 'sub_category_id', 'id');
+    }
+
+    public function set()
+    {
+        return $this->belongsTo('App\Models\Set', 'set_id', 'id');
     }
 }

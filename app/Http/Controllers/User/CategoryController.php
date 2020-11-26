@@ -15,10 +15,17 @@ class CategoryController extends Controller
     {
         // return Cache::rememberForever('user_category', function () {
         return Category::with(['sub_category' => function ($query) {
-            $query->select('category_id', 'name', 'status')->where('status', 'active');
+            $query->select('id', 'category_id', 'name', 'status', 'type')->where('status', 'active');
         }])->where('status', 'active')
-            ->get(['id', 'name', 'description', 'status', 'created_at']);
+            ->orderBy('name', 'ASC')
+            // ->orderBy('name')
+            ->get();
         // });
+    }
+
+    public function showArticle(int $id): Category
+    {
+        return Category::find($id);
     }
 
     public function show(string $name, $page = 1)
@@ -69,13 +76,13 @@ class CategoryController extends Controller
 
     public function categoriesWithItems($category, $page = 1)
     {
-        $items = Cache::rememberForever('user_category_items_' . $category, function () use ($category) {
-            return Category::with(['sub_category' => function ($query) {
-                $query->where('status', 'active');
-            }, 'sub_category.items' => function ($query) {
-                $query->where('status', 'active')->orderBy('level');
-            }])->find($category);
-        });
+        // $items = Cache::rememberForever('user_category_items_' . $category, function () use ($category) {
+        return Category::with(['sub_category' => function ($query) {
+            $query->where('status', 'active');
+        }, 'sub_category.items' => function ($query) {
+            $query->where('status', 'active')->orderBy('level');
+        }])->find($category);
+        // });
         return $items;
 
         $total_items      = $items->count();

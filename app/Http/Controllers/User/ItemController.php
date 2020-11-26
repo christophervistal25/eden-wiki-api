@@ -12,7 +12,7 @@ class ItemController extends Controller
 {
     public function search($keyword)
     {
-        return Item::with(['sub_category', 'sub_category.category'])
+        return Item::with(['sub_category', 'sub_category.category', 'set'])
             ->where('name', 'like', '%' . rawurldecode(strtoupper($keyword)) . '%')
             ->get();
     }
@@ -20,8 +20,10 @@ class ItemController extends Controller
 
     public function paginate(string $main, string $type, string $page)
     {
-        $items = Item::whereHas('sub_category', function ($query) use ($type) {
-            $query->where('name', rawurldecode($type));
+        $category = Category::where('name', rawurldecode($main))->first();
+
+        $items = Item::with('set')->whereHas('sub_category', function ($query) use ($type, $category) {
+            $query->where('name', rawurldecode($type))->where('category_id', $category->id);
         })->orderBy('level')->get();
 
         $pagination_total = (int) ceil($items->count() / 12);

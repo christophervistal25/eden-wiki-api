@@ -27,15 +27,19 @@ class CategoryController extends Controller
 
     public function store(Request $request)
     {
+
         $this->validate($request, [
             'name'        => 'required|unique:categories',
             'description' => 'required',
+            'type'        => 'required',
         ]);
 
         return Category::create([
             'name'        => $request->name,
             'description' => $request->description,
+            'content'     => $request->content,
             'status'      => 'active',
+            'type'        => $request->type,
         ]);
     }
 
@@ -46,9 +50,13 @@ class CategoryController extends Controller
         }])->find($id);
     }
 
+    public function edit(int $id)
+    {
+        return Category::find($id);
+    }
+
     public function update(Request $request, int $id)
     {
-
         $this->validate($request, [
             'name'        => 'required|unique:categories,name,' . $id,
             'description' => 'required',
@@ -58,7 +66,9 @@ class CategoryController extends Controller
         $category              = Category::find($id);
         $category->name        = $request->name;
         $category->description = $request->description;
+        $category->content     = $request->content;
         $category->status      = $request->status;
+        $category->type        = $request->type;
         $category->save();
 
         return $this->show($category->id);

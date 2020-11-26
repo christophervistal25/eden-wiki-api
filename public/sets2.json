@@ -1,0 +1,2230 @@
+[
+    {
+        "name": "Leaf Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_VAG_HELMET04": "PARTS_CAP",
+            "II_ARM_F_VAG_SUIT04": "PARTS_UPPER_BODY",
+            "II_ARM_F_VAG_GAUNTLET04": "PARTS_HAND",
+            "II_ARM_F_VAG_BOOTS04": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_4": "150",
+            "DST_SPEED_3": "20",
+            "DST_ADJDEF_3": "23",
+            "DST_HP_MAX_2": "50",
+            "DST_STR_2": "3"
+        }
+    },
+    {
+        "name": "Parmil Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_VAG_HELMET04": "PARTS_CAP",
+            "II_ARM_M_VAG_SUIT04": "PARTS_UPPER_BODY",
+            "II_ARM_M_VAG_GAUNTLET04": "PARTS_HAND",
+            "II_ARM_M_VAG_BOOTS04": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_4": "150",
+            "DST_SPEED_3": "20",
+            "DST_ADJDEF_3": "23",
+            "DST_HP_MAX_2": "50",
+            "DST_STR_2": "3"
+        }
+    },
+    {
+        "name": "Flower Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_MER_HELMET_SET_01": "PARTS_CAP",
+            "II_ARM_F_MER_SUIT_SET_01": "PARTS_UPPER_BODY",
+            "II_ARM_F_MER_GAUNTLET_SET_01": "PARTS_HAND",
+            "II_ARM_F_MER_BOOTS_SET_01": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_SWD_DMG_4": "4",
+            "DST_AXE_DMG_4": "4",
+            "DST_HP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "22",
+            "DST_ADJDEF_2": "17"
+        }
+    },
+    {
+        "name": "Petal Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_MER_HELMET_SET_01": "PARTS_CAP",
+            "II_ARM_M_MER_SUIT_SET_01": "PARTS_UPPER_BODY",
+            "II_ARM_M_MER_GAUNTLET_SET_01": "PARTS_HAND",
+            "II_ARM_M_MER_BOOTS_SET_01": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_SWD_DMG_4": "4",
+            "DST_AXE_DMG_4": "4",
+            "DST_HP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "22",
+            "DST_ADJDEF_2": "17"
+        }
+    },
+    {
+        "name": "Stinger Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ACR_HELMET_SET_01": "PARTS_CAP",
+            "II_ARM_F_ACR_SUIT_SET_01": "PARTS_UPPER_BODY",
+            "II_ARM_F_ACR_GAUNTLET_SET_01": "PARTS_HAND",
+            "II_ARM_F_ACR_BOOTS_SET_01": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CHR_CHANCECRITICAL_4": "10",
+            "DST_MP_MAX_RATE_3": "10",
+            "DST_FP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "20",
+            "DST_ADJDEF_2": "16",
+            "DST_DEX_2": "3"
+        }
+    },
+    {
+        "name": "Slepint Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ACR_HELMET_SET_01": "PARTS_CAP",
+            "II_ARM_M_ACR_SUIT_SET_01": "PARTS_UPPER_BODY",
+            "II_ARM_M_ACR_GAUNTLET_SET_01": "PARTS_HAND",
+            "II_ARM_M_ACR_BOOTS_SET_01": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CHR_CHANCECRITICAL_4": "10",
+            "DST_MP_MAX_RATE_3": "10",
+            "DST_FP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "20",
+            "DST_ADJDEF_2": "16",
+            "DST_DEX_2": "3"
+        }
+    },
+    {
+        "name": "Curus Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ASS_HELMET_SET_01": "PARTS_CAP",
+            "II_ARM_F_ASS_SUIT_SET_01": "PARTS_UPPER_BODY",
+            "II_ARM_F_ASS_GAUNTLET_SET_01": "PARTS_HAND",
+            "II_ARM_F_ASS_BOOTS_SET_01": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ATTACKSPEED_4": "200",
+            "DST_MP_MAX_RATE_3": "10",
+            "DST_FP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "18",
+            "DST_ADJDEF_2": "15",
+            "DST_DEX_2": "3"
+        }
+    },
+    {
+        "name": "Sardine Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ASS_HELMET_SET_01": "PARTS_CAP",
+            "II_ARM_M_ASS_SUIT_SET_01": "PARTS_UPPER_BODY",
+            "II_ARM_M_ASS_GAUNTLET_SET_01": "PARTS_HAND",
+            "II_ARM_M_ASS_BOOTS_SET_01": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ATTACKSPEED_4": "200",
+            "DST_MP_MAX_RATE_3": "10",
+            "DST_FP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "18",
+            "DST_ADJDEF_2": "15",
+            "DST_DEX_2": "3"
+        }
+    },
+    {
+        "name": "Niz Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_MAG_HELMET_SET_01": "PARTS_CAP",
+            "II_ARM_F_MAG_SUIT_SET_01": "PARTS_UPPER_BODY",
+            "II_ARM_F_MAG_GAUNTLET_SET_01": "PARTS_HAND",
+            "II_ARM_F_MAG_BOOTS_SET_01": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "10",
+            "DST_MP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "18",
+            "DST_ADJDEF_2": "14",
+            "DST_INT_2": "3"
+        }
+    },
+    {
+        "name": "Seer Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_MAG_HELMET_SET_01": "PARTS_CAP",
+            "II_ARM_M_MAG_SUIT_SET_01": "PARTS_UPPER_BODY",
+            "II_ARM_M_MAG_GAUNTLET_SET_01": "PARTS_HAND",
+            "II_ARM_M_MAG_BOOTS_SET_01": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "10",
+            "DST_MP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "18",
+            "DST_ADJDEF_2": "14",
+            "DST_INT_2": "3"
+        }
+    },
+    {
+        "name": "Cylos Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_MER_HELMET_SET_02": "PARTS_CAP",
+            "II_ARM_F_MER_SUIT_SET_02": "PARTS_UPPER_BODY",
+            "II_ARM_F_MER_GAUNTLET_SET_02": "PARTS_HAND",
+            "II_ARM_F_MER_BOOTS_SET_02": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJ_HITRATE_4": "10",
+            "DST_CHR_CHANCECRITICAL_3": "5",
+            "DST_ADJDEF_3": "33",
+            "DST_ADJDEF_2": "22"
+        }
+    },
+    {
+        "name": "Comet Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_MER_HELMET_SET_02": "PARTS_CAP",
+            "II_ARM_M_MER_SUIT_SET_02": "PARTS_UPPER_BODY",
+            "II_ARM_M_MER_GAUNTLET_SET_02": "PARTS_HAND",
+            "II_ARM_M_MER_BOOTS_SET_02": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJ_HITRATE_4": "10",
+            "DST_CHR_CHANCECRITICAL_3": "5",
+            "DST_ADJDEF_3": "33",
+            "DST_ADJDEF_2": "22"
+        }
+    },
+    {
+        "name": "Miragle Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ACR_HELMET_SET_02": "PARTS_CAP",
+            "II_ARM_F_ACR_SUIT_SET_02 ": "PARTS_UPPER_BODY",
+            "II_ARM_F_ACR_GAUNTLET_SET_02 ": "PARTS_HAND",
+            "II_ARM_F_ACR_BOOTS_SET_02 ": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ATTACKSPEED_4": "200",
+            "DST_MP_DEC_RATE_3": "15",
+            "DST_FP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "30",
+            "DST_ADJDEF_2": "20",
+            "DST_HP_MAX_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Layered Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ACR_HELMET_SET_02": "PARTS_CAP",
+            "II_ARM_M_ACR_SUIT_SET_02 ": "PARTS_UPPER_BODY",
+            "II_ARM_M_ACR_GAUNTLET_SET_02 ": "PARTS_HAND",
+            "II_ARM_M_ACR_BOOTS_SET_02 ": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ATTACKSPEED_4": "200",
+            "DST_MP_DEC_RATE_3": "15",
+            "DST_FP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "30",
+            "DST_ADJDEF_2": "20",
+            "DST_HP_MAX_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Sayram Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ASS_HELMET_SET_02": "PARTS_CAP",
+            "II_ARM_F_ASS_SUIT_SET_02": "PARTS_UPPER_BODY",
+            "II_ARM_F_ASS_GAUNTLET_SET_02": "PARTS_HAND",
+            "II_ARM_F_ASS_BOOTS_SET_02": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CHR_CHANCECRITICAL_4": "10",
+            "DST_MP_DEC_RATE_3": "15",
+            "DST_FP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "19",
+            "DST_INT_2": "5"
+        }
+    },
+    {
+        "name": "Talin Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ASS_HELMET_SET_02": "PARTS_CAP",
+            "II_ARM_M_ASS_SUIT_SET_02": "PARTS_UPPER_BODY",
+            "II_ARM_M_ASS_GAUNTLET_SET_02": "PARTS_HAND",
+            "II_ARM_M_ASS_BOOTS_SET_02": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CHR_CHANCECRITICAL_4": "10",
+            "DST_MP_DEC_RATE_3": "15",
+            "DST_FP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "19",
+            "DST_INT_2": "5"
+        }
+    },
+    {
+        "name": "Merr Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_MAG_HELMET_SET_02": "PARTS_CAP",
+            "II_ARM_F_MAG_SUIT_SET_02": "PARTS_UPPER_BODY",
+            "II_ARM_F_MAG_GAUNTLET_SET_02": "PARTS_HAND",
+            "II_ARM_F_MAG_BOOTS_SET_02": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "10",
+            "DST_HP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "17",
+            "DST_INT_2": "5"
+        }
+    },
+    {
+        "name": "Sorain Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_MAG_HELMET_SET_02": "PARTS_CAP",
+            "II_ARM_M_MAG_SUIT_SET_02": "PARTS_UPPER_BODY",
+            "II_ARM_M_MAG_GAUNTLET_SET_02": "PARTS_HAND",
+            "II_ARM_M_MAG_BOOTS_SET_02": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "10",
+            "DST_HP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "17",
+            "DST_INT_2": "5"
+        }
+    },
+    {
+        "name": "Stitch Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_MER_HELMET_SET_03": "PARTS_CAP",
+            "II_ARM_F_MER_SUIT_SET_03": "PARTS_UPPER_BODY",
+            "II_ARM_F_MER_GAUNTLET_SET_03": "PARTS_HAND",
+            "II_ARM_F_MER_BOOTS_SET_03": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ATTACKSPEED_4": "400",
+            "DST_HP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "23",
+            "DST_ADJDEF_2": "22",
+            "DST_FP_DEC_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Panggril Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_MER_HELMET_SET_03": "PARTS_CAP",
+            "II_ARM_M_MER_SUIT_SET_03": "PARTS_UPPER_BODY",
+            "II_ARM_M_MER_GAUNTLET_SET_03": "PARTS_HAND",
+            "II_ARM_M_MER_BOOTS_SET_03": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ATTACKSPEED_4": "400",
+            "DST_HP_MAX_RATE_3": "10",
+            "DST_ADJDEF_3": "23",
+            "DST_ADJDEF_2": "22",
+            "DST_FP_DEC_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Hyper Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ACR_HELMET_SET_03": "PARTS_CAP",
+            "II_ARM_F_ACR_SUIT_SET_03": "PARTS_UPPER_BODY",
+            "II_ARM_F_ACR_GAUNTLET_SET_03": "PARTS_HAND",
+            "II_ARM_F_ACR_BOOTS_SET_03": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CRITICAL_BONUS_4": "40",
+            "DST_MP_DEC_RATE_3": "20",
+            "DST_FP_DEC_RATE_3": "20",
+            "DST_ADJDEF_3": "21",
+            "DST_ADJDEF_2": "20",
+            "DST_YOY_DMG_2": "10",
+            "DST_BOW_DMG_2": "11"
+        }
+    },
+    {
+        "name": "Cruiser Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ACR_HELMET_SET_03": "PARTS_CAP",
+            "II_ARM_M_ACR_SUIT_SET_03": "PARTS_UPPER_BODY",
+            "II_ARM_M_ACR_GAUNTLET_SET_03": "PARTS_HAND",
+            "II_ARM_M_ACR_BOOTS_SET_03": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CRITICAL_BONUS_4": "40",
+            "DST_MP_DEC_RATE_3": "20",
+            "DST_FP_DEC_RATE_3": "20",
+            "DST_ADJDEF_3": "21",
+            "DST_ADJDEF_2": "20",
+            "DST_YOY_DMG_2": "10",
+            "DST_BOW_DMG_2": "11"
+        }
+    },
+    {
+        "name": "Flury Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ASS_HELMET_SET_03": "PARTS_CAP",
+            "II_ARM_F_ASS_SUIT_SET_03": "PARTS_UPPER_BODY",
+            "II_ARM_F_ASS_GAUNTLET_SET_03": "PARTS_HAND",
+            "II_ARM_F_ASS_BOOTS_SET_03": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_SPELL_RATE_4": "30",
+            "DST_MP_DEC_RATE_3": "20",
+            "DST_FP_DEC_RATE_3": "20",
+            "DST_ADJDEF_3": "19",
+            "DST_ADJDEF_2": "19",
+            "DST_INT_2": "7"
+        }
+    },
+    {
+        "name": "Wedge Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ASS_HELMET_SET_03": "PARTS_CAP",
+            "II_ARM_M_ASS_SUIT_SET_03": "PARTS_UPPER_BODY",
+            "II_ARM_M_ASS_GAUNTLET_SET_03": "PARTS_HAND",
+            "II_ARM_M_ASS_BOOTS_SET_03": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_SPELL_RATE_4": "30",
+            "DST_MP_DEC_RATE_3": "20",
+            "DST_FP_DEC_RATE_3": "20",
+            "DST_ADJDEF_3": "19",
+            "DST_ADJDEF_2": "19",
+            "DST_INT_2": "7"
+        }
+    },
+    {
+        "name": "Misty Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_MAG_HELMET_SET_03": "PARTS_CAP",
+            "II_ARM_F_MAG_SUIT_SET_03": "PARTS_UPPER_BODY",
+            "II_ARM_F_MAG_GAUNTLET_SET_03": "PARTS_HAND",
+            "II_ARM_F_MAG_BOOTS_SET_03": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_SPELL_RATE_4": "10",
+            "DST_MP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "19",
+            "DST_ADJDEF_2": "18",
+            "DST_HP_MAX_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Teba Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_MAG_HELMET_SET_03": "PARTS_CAP",
+            "II_ARM_M_MAG_SUIT_SET_03": "PARTS_UPPER_BODY",
+            "II_ARM_M_MAG_GAUNTLET_SET_03": "PARTS_HAND",
+            "II_ARM_M_MAG_BOOTS_SET_03": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_SPELL_RATE_4": "10",
+            "DST_MP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "19",
+            "DST_ADJDEF_2": "18",
+            "DST_HP_MAX_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Recorn set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_MER_HELMET_SET_04": "PARTS_CAP",
+            "II_ARM_M_MER_SUIT_SET_04": "PARTS_UPPER_BODY",
+            "II_ARM_M_MER_GAUNTLET_SET_04": "PARTS_HAND",
+            "II_ARM_M_MER_BOOTS_SET_04": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ATTACKSPEED_4": "400",
+            "DST_HP_MAX_RATE_3": "15",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "22"
+        }
+    },
+    {
+        "name": "Ryscon set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_MER_HELMET_SET_04": "PARTS_CAP",
+            "II_ARM_F_MER_SUIT_SET_04": "PARTS_UPPER_BODY",
+            "II_ARM_F_MER_GAUNTLET_SET_04": "PARTS_HAND",
+            "II_ARM_F_MER_BOOTS_SET_04": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ATTACKSPEED_4": "400",
+            "DST_HP_MAX_RATE_3": "15",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "22"
+        }
+    },
+    {
+        "name": "Rebron set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ACR_HELMET_SET_05": "PARTS_CAP",
+            "II_ARM_M_ACR_SUIT_SET_05": "PARTS_UPPER_BODY",
+            "II_ARM_M_ACR_GAUNTLET_SET_05": "PARTS_HAND",
+            "II_ARM_M_ACR_BOOTS_SET_05": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJ_HITRATE_4": "15",
+            "DST_STR_3": "10",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Restron set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ACR_HELMET_SET_05": "PARTS_CAP",
+            "II_ARM_F_ACR_SUIT_SET_05": "PARTS_UPPER_BODY",
+            "II_ARM_F_ACR_GAUNTLET_SET_05": "PARTS_HAND",
+            "II_ARM_F_ACR_BOOTS_SET_05": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJ_HITRATE_4": "15",
+            "DST_STR_3": "10",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Shurant set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ASS_HELMET_SET_06": "PARTS_CAP",
+            "II_ARM_M_ASS_SUIT_SET_06": "PARTS_UPPER_BODY",
+            "II_ARM_M_ASS_GAUNTLET_SET_06": "PARTS_HAND",
+            "II_ARM_M_ASS_BOOTS_SET_06": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_INT_3": "8",
+            "DST_ADJDEF_3": "26",
+            "DST_ADJDEF_2": "19"
+        }
+    },
+    {
+        "name": "Shuran set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ASS_HELMET_SET_06": "PARTS_CAP",
+            "II_ARM_F_ASS_SUIT_SET_06": "PARTS_UPPER_BODY",
+            "II_ARM_F_ASS_GAUNTLET_SET_06": "PARTS_HAND",
+            "II_ARM_F_ASS_BOOTS_SET_06": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_INT_3": "8",
+            "DST_ADJDEF_3": "26",
+            "DST_ADJDEF_2": "19"
+        }
+    },
+    {
+        "name": "Ahes set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_MAG_HELMET_SET_07": "PARTS_CAP",
+            "II_ARM_M_MAG_SUIT_SET_07": "PARTS_UPPER_BODY",
+            "II_ARM_M_MAG_GAUNTLET_SET_07": "PARTS_HAND",
+            "II_ARM_M_MAG_BOOTS_SET_07": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_INT_4": "10",
+            "DST_MP_DEC_RATE_3": "13",
+            "DST_ADJDEF_3": "22",
+            "DST_ADJDEF_2": "18"
+        }
+    },
+    {
+        "name": "Anoos",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_MAG_HELMET_SET_07": "PARTS_CAP",
+            "II_ARM_F_MAG_SUIT_SET_07": "PARTS_UPPER_BODY",
+            "II_ARM_F_MAG_GAUNTLET_SET_07": "PARTS_HAND",
+            "II_ARM_F_MAG_BOOTS_SET_07": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_INT_4": "10",
+            "DST_MP_DEC_RATE_3": "13",
+            "DST_ADJDEF_3": "22",
+            "DST_ADJDEF_2": "18"
+        }
+    },
+    {
+        "name": "Warpon set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_KIN_HELMET_SET_08": "PARTS_CAP",
+            "II_ARM_M_KIN_SUIT_SET_08": "PARTS_UPPER_BODY",
+            "II_ARM_M_KIN_GAUNTLET_SET_08": "PARTS_HAND",
+            "II_ARM_M_KIN_BOOTS_SET_08": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJ_HITRATE_4": "15",
+            "DST_CHR_CHANCECRITICAL_3": "15",
+            "DST_ADJDEF_3": "25",
+            "DST_ADJDEF_2": "25"
+        }
+    },
+    {
+        "name": "Warspon set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_KIN_HELMET_SET_08": "PARTS_CAP",
+            "II_ARM_F_KIN_SUIT_SET_08": "PARTS_UPPER_BODY",
+            "II_ARM_F_KIN_GAUNTLET_SET_08": "PARTS_HAND",
+            "II_ARM_F_KIN_BOOTS_SET_08": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJ_HITRATE_4": "15",
+            "DST_CHR_CHANCECRITICAL_3": "15",
+            "DST_ADJDEF_3": "25",
+            "DST_ADJDEF_2": "25"
+        }
+    },
+    {
+        "name": "Wees Helmet",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_KIN_HELMET_SET_09": "PARTS_CAP",
+            "II_ARM_M_KIN_SUIT_SET_09": "PARTS_UPPER_BODY",
+            "II_ARM_M_KIN_GAUNTLET_SET_09": "PARTS_HAND",
+            "II_ARM_M_KIN_BOOTS_SET_09": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STR_4": "7",
+            "DST_FP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "25",
+            "DST_ADJDEF_2": "25"
+        }
+    },
+    {
+        "name": "Weesian Helmet",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_KIN_HELMET_SET_09": "PARTS_CAP",
+            "II_ARM_F_KIN_SUIT_SET_09": "PARTS_UPPER_BODY",
+            "II_ARM_F_KIN_GAUNTLET_SET_09": "PARTS_HAND",
+            "II_ARM_F_KIN_BOOTS_SET_09": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STR_4": "7",
+            "DST_FP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "25",
+            "DST_ADJDEF_2": "25"
+        }
+    },
+    {
+        "name": "Extro set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_KIN_HELMET_SET_10": "PARTS_CAP",
+            "II_ARM_M_KIN_SUIT_SET_10": "PARTS_UPPER_BODY",
+            "II_ARM_M_KIN_GAUNTLET_SET_10 ": "PARTS_HAND",
+            "II_ARM_M_KIN_BOOTS_SET_10": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "7",
+            "DST_ATTACKSPEED_3": "300",
+            "DST_ADJDEF_3": "24",
+            "DST_ADJDEF_2": "24"
+        }
+    },
+    {
+        "name": "Exstro set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_KIN_HELMET_SET_10": "PARTS_CAP",
+            "II_ARM_F_KIN_SUIT_SET_10": "PARTS_UPPER_BODY",
+            "II_ARM_F_KIN_GAUNTLET_SET_10 ": "PARTS_HAND",
+            "II_ARM_F_KIN_BOOTS_SET_10": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "7",
+            "DST_ATTACKSPEED_3": "300",
+            "DST_ADJDEF_3": "24",
+            "DST_ADJDEF_2": "24"
+        }
+    },
+    {
+        "name": "Einy set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BLA_HELMET_SET_11": "PARTS_CAP",
+            "II_ARM_M_BLA_SUIT_SET_11": "PARTS_UPPER_BODY",
+            "II_ARM_M_BLA_GAUNTLET_SET_11": "PARTS_HAND",
+            "II_ARM_M_BLA_BOOTS_SET_11": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_STR_3": "10",
+            "DST_ADJDEF_3": "29",
+            "DST_ADJDEF_2": "26"
+        }
+    },
+    {
+        "name": "Akan set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BLA_HELMET_SET_11": "PARTS_CAP",
+            "II_ARM_F_BLA_SUIT_SET_11": "PARTS_UPPER_BODY",
+            "II_ARM_F_BLA_GAUNTLET_SET_11": "PARTS_HAND",
+            "II_ARM_F_BLA_BOOTS_SET_11": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_STR_3": "10",
+            "DST_ADJDEF_3": "29",
+            "DST_ADJDEF_2": "26"
+        }
+    },
+    {
+        "name": "Dayst set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BLA_HELMET_SET_12": "PARTS_CAP",
+            "II_ARM_M_BLA_SUIT_SET_12": "PARTS_UPPER_BODY",
+            "II_ARM_M_BLA_GAUNTLET_SET_12": "PARTS_HAND",
+            "II_ARM_M_BLA_BOOTS_SET_12": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "5",
+            "DST_CHR_CHANCECRITICAL_3": "15",
+            "DST_ADJDEF_3": "29",
+            "DST_ADJDEF_2": "26"
+        }
+    },
+    {
+        "name": "Dest set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BLA_HELMET_SET_12": "PARTS_CAP",
+            "II_ARM_F_BLA_SUIT_SET_12": "PARTS_UPPER_BODY",
+            "II_ARM_F_BLA_GAUNTLET_SET_12": "PARTS_HAND",
+            "II_ARM_F_BLA_BOOTS_SET_12": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "5",
+            "DST_CHR_CHANCECRITICAL_3": "15",
+            "DST_ADJDEF_3": "29",
+            "DST_ADJDEF_2": "26"
+        }
+    },
+    {
+        "name": "Hanes set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BLA_HELMET_SET_13": "PARTS_CAP",
+            "II_ARM_M_BLA_SUIT_SET_13": "PARTS_UPPER_BODY",
+            "II_ARM_M_BLA_GAUNTLET_SET_13": "PARTS_HAND",
+            "II_ARM_M_BLA_BOOTS_SET_13": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_REFLECT_DAMAGE_4": "10",
+            "DST_HP_MAX_RATE_3": "13",
+            "DST_ADJDEF_3": "29",
+            "DST_ADJDEF_2": "25"
+        }
+    },
+    {
+        "name": "Haganes set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BLA_HELMET_SET_13": "PARTS_CAP",
+            "II_ARM_F_BLA_SUIT_SET_13": "PARTS_UPPER_BODY",
+            "II_ARM_F_BLA_GAUNTLET_SET_13": "PARTS_HAND",
+            "II_ARM_F_BLA_BOOTS_SET_13": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_REFLECT_DAMAGE_4": "10",
+            "DST_HP_MAX_RATE_3": "13",
+            "DST_ADJDEF_3": "29",
+            "DST_ADJDEF_2": "25"
+        }
+    },
+    {
+        "name": "Katria set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_JST_HELMET_SET_14": "PARTS_CAP",
+            "II_ARM_M_JST_SUIT_SET_14": "PARTS_UPPER_BODY",
+            "II_ARM_M_JST_GAUNTLET_SET_14": "PARTS_HAND",
+            "II_ARM_M_JST_BOOTS_SET_14": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "8",
+            "DST_FP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Kanarin set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_JST_HELMET_SET_14": "PARTS_CAP",
+            "II_ARM_F_JST_SUIT_SET_14": "PARTS_UPPER_BODY",
+            "II_ARM_F_JST_GAUNTLET_SET_14": "PARTS_HAND",
+            "II_ARM_F_JST_BOOTS_SET_14": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "8",
+            "DST_FP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Restra set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_JST_HELMET_SET_15": "PARTS_CAP",
+            "II_ARM_M_JST_SUIT_SET_15": "PARTS_UPPER_BODY",
+            "II_ARM_M_JST_GAUNTLET_SET_15": "PARTS_HAND",
+            "II_ARM_M_JST_BOOTS_SET_15": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CRITICAL_BONUS_4": "40",
+            "DST_CHR_CHANCECRITICAL_3": "15",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Rasra set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_JST_HELMET_SET_15": "PARTS_CAP",
+            "II_ARM_F_JST_SUIT_SET_15": "PARTS_UPPER_BODY",
+            "II_ARM_F_JST_GAUNTLET_SET_15": "PARTS_HAND",
+            "II_ARM_F_JST_BOOTS_SET_15": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CRITICAL_BONUS_4": "40",
+            "DST_CHR_CHANCECRITICAL_3": "15",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Neis set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_JST_HELMET_SET_16": "PARTS_CAP",
+            "II_ARM_M_JST_SUIT_SET_16": "PARTS_UPPER_BODY",
+            "II_ARM_M_JST_GAUNTLET_SET_16": "PARTS_HAND",
+            "II_ARM_M_JST_BOOTS_SET_16": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "10",
+            "DST_STR_3": "10",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Neition set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_JST_HELMET_SET_16": "PARTS_CAP",
+            "II_ARM_F_JST_SUIT_SET_16": "PARTS_UPPER_BODY",
+            "II_ARM_F_JST_GAUNTLET_SET_16": "PARTS_HAND",
+            "II_ARM_F_JST_BOOTS_SET_16": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "10",
+            "DST_STR_3": "10",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Oska set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RAG_HELMET_SET_17": "PARTS_CAP",
+            "II_ARM_M_RAG_SUIT_SET_17": "PARTS_UPPER_BODY",
+            "II_ARM_M_RAG_GAUNTLET_SET_17 ": "PARTS_HAND",
+            "II_ARM_M_RAG_BOOTS_SET_17": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_ADJ_HITRATE_3": "15",
+            "DST_ADJDEF_3": "29",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Okas set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RAG_HELMET_SET_17": "PARTS_CAP",
+            "II_ARM_F_RAG_SUIT_SET_17": "PARTS_UPPER_BODY",
+            "II_ARM_F_RAG_GAUNTLET_SET_17 ": "PARTS_HAND",
+            "II_ARM_F_RAG_BOOTS_SET_17": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_ADJ_HITRATE_3": "15",
+            "DST_ADJDEF_3": "29",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Asren set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RAG_HELMET_SET_18": "PARTS_CAP",
+            "II_ARM_M_RAG_SUIT_SET_18": "PARTS_UPPER_BODY",
+            "II_ARM_M_RAG_GAUNTLET_SET_18": "PARTS_HAND",
+            "II_ARM_M_RAG_BOOTS_SET_18": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CHR_CHANCECRITICAL_4": "12",
+            "DST_STR_3": "7",
+            "DST_ADJDEF_3": "29",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Ahren set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RAG_HELMET_SET_18": "PARTS_CAP",
+            "II_ARM_F_RAG_SUIT_SET_18": "PARTS_UPPER_BODY",
+            "II_ARM_F_RAG_GAUNTLET_SET_18": "PARTS_HAND",
+            "II_ARM_F_RAG_BOOTS_SET_18": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CHR_CHANCECRITICAL_4": "12",
+            "DST_STR_3": "7",
+            "DST_ADJDEF_3": "29",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Tyrent set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RAG_HELMET_SET_19": "PARTS_CAP",
+            "II_ARM_M_RAG_SUIT_SET_19": "PARTS_UPPER_BODY",
+            "II_ARM_M_RAG_GAUNTLET_SET_19": "PARTS_HAND",
+            "II_ARM_M_RAG_BOOTS_SET_19": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_REFLECT_DAMAGE_4": "10",
+            "DST_HP_MAX_RATE_3": "15",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Tytt set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RAG_HELMET_SET_19": "PARTS_CAP",
+            "II_ARM_F_RAG_SUIT_SET_19": "PARTS_UPPER_BODY",
+            "II_ARM_F_RAG_GAUNTLET_SET_19": "PARTS_HAND",
+            "II_ARM_F_RAG_BOOTS_SET_19": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_REFLECT_DAMAGE_4": "10",
+            "DST_HP_MAX_RATE_3": "15",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Pact set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RIN_HELMET_SET_20": "PARTS_CAP",
+            "II_ARM_M_RIN_SUIT_SET_20": "PARTS_UPPER_BODY",
+            "II_ARM_M_RIN_GAUNTLET_SET_20": "PARTS_HAND",
+            "II_ARM_M_RIN_BOOTS_SET_20": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_INT_4": "10",
+            "DST_MP_MAX_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Paxt set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RIN_HELMET_SET_20": "PARTS_CAP",
+            "II_ARM_F_RIN_SUIT_SET_20": "PARTS_UPPER_BODY",
+            "II_ARM_F_RIN_GAUNTLET_SET_20": "PARTS_HAND",
+            "II_ARM_F_RIN_BOOTS_SET_20": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_INT_4": "10",
+            "DST_MP_MAX_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Shupon set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RIN_HELMET_SET_21": "PARTS_CAP",
+            "II_ARM_M_RIN_SUIT_SET_21": "PARTS_UPPER_BODY",
+            "II_ARM_M_RIN_GAUNTLET_SET_21": "PARTS_HAND",
+            "II_ARM_M_RIN_BOOTS_SET_21": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "20",
+            "DST_INT_3": "7",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Shurian set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RIN_HELMET_SET_21": "PARTS_CAP",
+            "II_ARM_F_RIN_SUIT_SET_21": "PARTS_UPPER_BODY",
+            "II_ARM_F_RIN_GAUNTLET_SET_21": "PARTS_HAND",
+            "II_ARM_F_RIN_BOOTS_SET_21": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "20",
+            "DST_INT_3": "7",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Navill set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RIN_HELMET_SET_22": "PARTS_CAP",
+            "II_ARM_M_RIN_SUIT_SET_22": "PARTS_UPPER_BODY",
+            "II_ARM_M_RIN_GAUNTLET_SET_22": "PARTS_HAND",
+            "II_ARM_M_RIN_BOOTS_SET_22": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_SPELL_RATE_4": "20",
+            "DST_HP_MAX_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Neclus set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RIN_HELMET_SET_22": "PARTS_CAP",
+            "II_ARM_F_RIN_SUIT_SET_22": "PARTS_UPPER_BODY",
+            "II_ARM_F_RIN_GAUNTLET_SET_22": "PARTS_HAND",
+            "II_ARM_F_RIN_BOOTS_SET_22": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_SPELL_RATE_4": "20",
+            "DST_HP_MAX_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Alex set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BIL_HELMET_SET_23 ": "PARTS_CAP",
+            "II_ARM_M_BIL_SUIT_SET_23": "PARTS_UPPER_BODY",
+            "II_ARM_M_BIL_GAUNTLET_SET_23": "PARTS_HAND",
+            "II_ARM_M_BIL_BOOTS_SET_23": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_DEX_3": "7",
+            "DST_ADJDEF_3": "22",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Ales set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BIL_HELMET_SET_23 ": "PARTS_CAP",
+            "II_ARM_F_BIL_SUIT_SET_23": "PARTS_UPPER_BODY",
+            "II_ARM_F_BIL_GAUNTLET_SET_23": "PARTS_HAND",
+            "II_ARM_F_BIL_BOOTS_SET_23": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_DEX_3": "7",
+            "DST_ADJDEF_3": "22",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Akent set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BIL_HELMET_SET_24": "PARTS_CAP",
+            "II_ARM_M_BIL_SUIT_SET_24": "PARTS_UPPER_BODY",
+            "II_ARM_M_BIL_GAUNTLET_SET_24 ": "PARTS_HAND",
+            "II_ARM_M_BIL_BOOTS_SET_24": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "5",
+            "DST_MP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "22",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Aken set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BIL_HELMET_SET_24": "PARTS_CAP",
+            "II_ARM_F_BIL_SUIT_SET_24": "PARTS_UPPER_BODY",
+            "II_ARM_F_BIL_GAUNTLET_SET_24 ": "PARTS_HAND",
+            "II_ARM_F_BIL_BOOTS_SET_24": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "5",
+            "DST_MP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "22",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Rody set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BIL_HELMET_SET_25": "PARTS_CAP",
+            "II_ARM_M_BIL_SUIT_SET_25": "PARTS_UPPER_BODY",
+            "II_ARM_M_BIL_GAUNTLET_SET_25": "PARTS_HAND",
+            "II_ARM_M_BIL_BOOTS_SET_25": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CRITICAL_BONUS_4": "40",
+            "DST_ADJ_HITRATE_3": "12",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Rodey set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BIL_HELMET_SET_25": "PARTS_CAP",
+            "II_ARM_F_BIL_SUIT_SET_25": "PARTS_UPPER_BODY",
+            "II_ARM_F_BIL_GAUNTLET_SET_25": "PARTS_HAND",
+            "II_ARM_F_BIL_BOOTS_SET_25": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CRITICAL_BONUS_4": "40",
+            "DST_ADJ_HITRATE_3": "12",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Ropang set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_PSY_HELMET_SET_26": "PARTS_CAP",
+            "II_ARM_M_PSY_SUIT_SET_26": "PARTS_UPPER_BODY",
+            "II_ARM_M_PSY_GAUNTLET_SET_26": "PARTS_HAND",
+            "II_ARM_M_PSY_BOOTS_SET_26": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "15",
+            "DST_INT_3": "7",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Loshuel set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_PSY_HELMET_SET_26": "PARTS_CAP",
+            "II_ARM_F_PSY_SUIT_SET_26": "PARTS_UPPER_BODY",
+            "II_ARM_F_PSY_GAUNTLET_SET_26": "PARTS_HAND",
+            "II_ARM_F_PSY_BOOTS_SET_26": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "15",
+            "DST_INT_3": "7",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Genian set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_PSY_HELMET_SET_27": "PARTS_CAP",
+            "II_ARM_M_PSY_SUIT_SET_27": "PARTS_UPPER_BODY",
+            "II_ARM_M_PSY_GAUNTLET_SET_27": "PARTS_HAND",
+            "II_ARM_M_PSY_BOOTS_SET_27": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_INT_4": "6",
+            "DST_SPELL_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Genas set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_PSY_HELMET_SET_27": "PARTS_CAP",
+            "II_ARM_F_PSY_SUIT_SET_27": "PARTS_UPPER_BODY",
+            "II_ARM_F_PSY_GAUNTLET_SET_27": "PARTS_HAND",
+            "II_ARM_F_PSY_BOOTS_SET_27": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_INT_4": "6",
+            "DST_SPELL_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Mekatro set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_PSY_HELMET_SET_28": "PARTS_CAP",
+            "II_ARM_M_PSY_SUIT_SET_28": "PARTS_UPPER_BODY",
+            "II_ARM_M_PSY_GAUNTLET_SET_28 ": "PARTS_HAND",
+            "II_ARM_M_PSY_BOOTS_SET_28": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_INT_4": "5",
+            "DST_MP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Mekaron set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_PSY_HELMET_SET_28": "PARTS_CAP",
+            "II_ARM_F_PSY_SUIT_SET_28": "PARTS_UPPER_BODY",
+            "II_ARM_F_PSY_GAUNTLET_SET_28 ": "PARTS_HAND",
+            "II_ARM_F_PSY_BOOTS_SET_28": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_INT_4": "5",
+            "DST_MP_DEC_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "20"
+        }
+    },
+    {
+        "name": "Myuran set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ELE_HELMET_SET_29": "PARTS_CAP",
+            "II_ARM_M_ELE_SUIT_SET_29": "PARTS_UPPER_BODY",
+            "II_ARM_M_ELE_GAUNTLET_SET_29": "PARTS_HAND",
+            "II_ARM_M_ELE_BOOTS_SET_29": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "15",
+            "DST_SPELL_RATE_3": "20",
+            "DST_ADJDEF_3": "33",
+            "DST_ADJDEF_2": "22"
+        }
+    },
+    {
+        "name": "Myurian set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ELE_HELMET_SET_29": "PARTS_CAP",
+            "II_ARM_F_ELE_SUIT_SET_29": "PARTS_UPPER_BODY",
+            "II_ARM_F_ELE_GAUNTLET_SET_29": "PARTS_HAND",
+            "II_ARM_F_ELE_BOOTS_SET_29": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "15",
+            "DST_SPELL_RATE_3": "20",
+            "DST_ADJDEF_3": "33",
+            "DST_ADJDEF_2": "22"
+        }
+    },
+    {
+        "name": "Ellder set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ELE_HELMET_SET_30 ": "PARTS_CAP",
+            "II_ARM_M_ELE_SUIT_SET_30": "PARTS_UPPER_BODY",
+            "II_ARM_M_ELE_GAUNTLET_SET_30": "PARTS_HAND",
+            "II_ARM_M_ELE_BOOTS_SET_30": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "15",
+            "DST_INT_3": "7",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "22"
+        }
+    },
+    {
+        "name": "Ellien set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ELE_HELMET_SET_30 ": "PARTS_CAP",
+            "II_ARM_F_ELE_SUIT_SET_30": "PARTS_UPPER_BODY",
+            "II_ARM_F_ELE_GAUNTLET_SET_30": "PARTS_HAND",
+            "II_ARM_F_ELE_BOOTS_SET_30": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "15",
+            "DST_INT_3": "7",
+            "DST_ADJDEF_3": "28",
+            "DST_ADJDEF_2": "22"
+        }
+    },
+    {
+        "name": "Shabel set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ELE_HELMET_SET_31": "PARTS_CAP",
+            "II_ARM_M_ELE_SUIT_SET_31": "PARTS_UPPER_BODY",
+            "II_ARM_M_ELE_GAUNTLET_SET_31": "PARTS_HAND",
+            "II_ARM_M_ELE_BOOTS_SET_31": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_SPELL_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Shurian set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ELE_HELMET_SET_31": "PARTS_CAP",
+            "II_ARM_F_ELE_SUIT_SET_31": "PARTS_UPPER_BODY",
+            "II_ARM_F_ELE_GAUNTLET_SET_31": "PARTS_HAND",
+            "II_ARM_F_ELE_BOOTS_SET_31": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_SPELL_RATE_3": "15",
+            "DST_ADJDEF_3": "27",
+            "DST_ADJDEF_2": "21"
+        }
+    },
+    {
+        "name": "Knighert Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_KIN_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_M_KIN_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_M_KIN_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_M_KIN_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Knighz Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_KIN_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_F_KIN_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_F_KIN_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_F_KIN_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Blain Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BLA_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_M_BLA_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_M_BLA_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_M_BLA_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Virain Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BLA_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_F_BLA_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_F_BLA_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_F_BLA_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Jesis Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_JST_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_M_JST_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_M_JST_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_M_JST_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Jenes Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_JST_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_F_JST_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_F_JST_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_F_JST_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Ranerz Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RAG_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_M_RAG_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_M_RAG_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_M_RAG_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Raze Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RAG_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_F_RAG_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_F_RAG_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_F_RAG_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Rimyth Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RIN_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_M_RIN_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_M_RIN_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_M_RIN_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Remingster Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RIN_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_F_RIN_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_F_RIN_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_F_RIN_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Billst Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BIL_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_M_BIL_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_M_BIL_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_M_BIL_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Billporon Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BIL_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_F_BIL_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_F_BIL_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_F_BIL_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Psykon Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_PSY_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_M_PSY_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_M_PSY_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_M_PSY_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Psyuniper Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_PSY_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_F_PSY_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_F_PSY_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_F_PSY_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Ellis Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ELE_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_M_ELE_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_M_ELE_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_M_ELE_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Ellsis Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ELE_HELMET_SET_32": "PARTS_CAP",
+            "II_ARM_F_ELE_SUIT_SET_32": "PARTS_UPPER_BODY",
+            "II_ARM_F_ELE_GAUNTLET_SET_32": "PARTS_HAND",
+            "II_ARM_F_ELE_BOOTS_SET_32": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_BLOCK_MELEE_4": "5",
+            "DST_BLOCK_RANGE_4": "5",
+            "DST_ADJDEF_RATE_4": "5",
+            "DST_BLOCK_MELEE_3": "10",
+            "DST_BLOCK_RANGE_3": "10",
+            "DST_ADJDEF_RATE_2": "10"
+        }
+    },
+    {
+        "name": "Cruentus (M) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_KIN_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_M_KIN_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_M_KIN_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_M_KIN_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STA_4": "10",
+            "DST_STR_4": "10",
+            "DST_ADJDEF_RATE_4": "15",
+            "DST_HP_MAX_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Cruentus (F) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_KIN_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_F_KIN_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_F_KIN_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_F_KIN_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STA_4": "10",
+            "DST_STR_4": "10",
+            "DST_ADJDEF_RATE_4": "15",
+            "DST_HP_MAX_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Nox (M) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BLA_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_M_BLA_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_M_BLA_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_M_BLA_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STR_4": "10",
+            "DST_CHR_CHANCECRITICAL_4": "20",
+            "DST_ADJDEF_RATE_4": "25",
+            "DST_HP_MAX_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Nox (F) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BLA_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_F_BLA_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_F_BLA_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_F_BLA_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STR_4": "10",
+            "DST_CHR_CHANCECRITICAL_4": "20",
+            "DST_ADJDEF_RATE_4": "25",
+            "DST_HP_MAX_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Velox (M) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_JST_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_M_JST_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_M_JST_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_M_JST_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STR_4": "10",
+            "DST_DEX_4": "10",
+            "DST_ADJDEF_RATE_4": "15",
+            "DST_HP_MAX_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Velox (F) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_JST_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_F_JST_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_F_JST_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_F_JST_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STR_4": "10",
+            "DST_DEX_4": "10",
+            "DST_ADJDEF_RATE_4": "15",
+            "DST_HP_MAX_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Acer (M) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RAG_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_M_RAG_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_M_RAG_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_M_RAG_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "10",
+            "DST_CHR_CHANCECRITICAL_4": "20",
+            "DST_ADJDEF_RATE_4": "25",
+            "DST_HP_MAX_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Acer (F) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RAG_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_F_RAG_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_F_RAG_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_F_RAG_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "10",
+            "DST_CHR_CHANCECRITICAL_4": "20",
+            "DST_ADJDEF_RATE_4": "25",
+            "DST_HP_MAX_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Revenio (M) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RIN_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_M_RIN_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_M_RIN_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_M_RIN_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "20",
+            "DST_ADJDEF_RATE_4": "22",
+            "DST_SPELL_RATE_4": "30",
+            "DST_INT_4": "10"
+        }
+    },
+    {
+        "name": "Revenio (F) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RIN_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_F_RIN_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_F_RIN_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_F_RIN_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "20",
+            "DST_ADJDEF_RATE_4": "22",
+            "DST_SPELL_RATE_4": "30",
+            "DST_INT_4": "10"
+        }
+    },
+    {
+        "name": "Grim (M) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BIL_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_M_BIL_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_M_BIL_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_M_BIL_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STR_4": "10",
+            "DST_DEX_4": "10",
+            "DST_ADJDEF_RATE_4": "25",
+            "DST_HP_MAX_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Grim (F) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BIL_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_F_BIL_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_F_BIL_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_F_BIL_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STR_4": "10",
+            "DST_DEX_4": "10",
+            "DST_ADJDEF_RATE_4": "25",
+            "DST_HP_MAX_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Twilight (M) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_PSY_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_M_PSY_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_M_PSY_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_M_PSY_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJDEF_RATE_4": "22",
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_SPELL_RATE_4": "15",
+            "DST_INT_4": "10"
+        }
+    },
+    {
+        "name": "Twilight (F) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_PSY_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_F_PSY_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_F_PSY_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_F_PSY_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJDEF_RATE_4": "22",
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_SPELL_RATE_4": "15",
+            "DST_INT_4": "10"
+        }
+    },
+    {
+        "name": "Nanemvis (M) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ELE_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_M_ELE_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_M_ELE_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_M_ELE_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJDEF_RATE_4": "22",
+            "DST_INT_4": "10",
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_SPELL_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Nanemvis (F) Set",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ELE_HELMET_SET_33": "PARTS_CAP",
+            "II_ARM_F_ELE_SUIT_SET_33": "PARTS_UPPER_BODY",
+            "II_ARM_F_ELE_GAUNTLET_SET_33": "PARTS_HAND",
+            "II_ARM_F_ELE_BOOTS_SET_33": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJDEF_RATE_4": "22",
+            "DST_INT_4": "10",
+            "DST_HP_MAX_RATE_4": "15",
+            "DST_SPELL_RATE_4": "15"
+        }
+    },
+    {
+        "name": "Bileire Set (M)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_KIN_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_M_KIN_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_M_KIN_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_M_KIN_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJDEF_RATE_4": "20",
+            "DST_BLOCK_MELEE_4": "20",
+            "DST_BLOCK_RANGE_4": "20",
+            "DST_HP_MAX_RATE_4": "20"
+        }
+    },
+    {
+        "name": "Bilari Set (F)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_KIN_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_F_KIN_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_F_KIN_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_F_KIN_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJDEF_RATE_4": "20",
+            "DST_BLOCK_MELEE_4": "20",
+            "DST_BLOCK_RANGE_4": "20",
+            "DST_HP_MAX_RATE_4": "20"
+        }
+    },
+    {
+        "name": "Heraud Set (M)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BLA_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_M_BLA_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_M_BLA_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_M_BLA_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJ_HITRATE_4": "20",
+            "DST_PARRY_4": "20",
+            "DST_CHR_CHANCECRITICAL_4": "20"
+        }
+    },
+    {
+        "name": "Herainn Set (F)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BLA_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_F_BLA_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_F_BLA_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_F_BLA_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADJ_HITRATE_4": "20",
+            "DST_PARRY_4": "20",
+            "DST_CHR_CHANCECRITICAL_4": "20"
+        }
+    },
+    {
+        "name": "Curio Set (M)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_JST_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_M_JST_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_M_JST_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_M_JST_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CRITICAL_BONUS_4": "20",
+            "DST_ADJ_HITRATE_4": "20",
+            "DST_PARRY_4": "20",
+            "DST_CHR_CHANCECRITICAL_4": "20"
+        }
+    },
+    {
+        "name": "Curena Set (F)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_JST_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_F_JST_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_F_JST_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_F_JST_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_CRITICAL_BONUS_4": "20",
+            "DST_ADJ_HITRATE_4": "20",
+            "DST_PARRY_4": "20",
+            "DST_CHR_CHANCECRITICAL_4": "20"
+        }
+    },
+    {
+        "name": "Hainure Set (M)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RAG_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_M_RAG_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_M_RAG_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_M_RAG_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "20",
+            "DST_HAWKEYE_RATE_4": "20",
+            "DST_PARRY_4": "20",
+            "DST_CHR_CHANCECRITICAL_4": "20"
+        }
+    },
+    {
+        "name": "Hanira Set (F)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RAG_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_F_RAG_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_F_RAG_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_F_RAG_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_DEX_4": "20",
+            "DST_HAWKEYE_RATE_4": "20",
+            "DST_PARRY_4": "20",
+            "DST_CHR_CHANCECRITICAL_4": "20"
+        }
+    },
+    {
+        "name": "Riene Set (M)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_RIN_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_M_RIN_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_M_RIN_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_M_RIN_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "20",
+            "DST_ADJDEF_RATE_4": "20",
+            "DST_SPELL_RATE_4": "20",
+            "DST_INT_4": "20"
+        }
+    },
+    {
+        "name": "Rayne Set (F)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_RIN_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_F_RIN_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_F_RIN_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_F_RIN_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "20",
+            "DST_ADJDEF_RATE_4": "20",
+            "DST_SPELL_RATE_4": "20",
+            "DST_INT_4": "20"
+        }
+    },
+    {
+        "name": "Roenier Set (M)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_BIL_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_M_BIL_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_M_BIL_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_M_BIL_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STR_4": "20",
+            "DST_INT_4": "20",
+            "DST_ADJDEF_RATE_4": "20",
+            "DST_HP_MAX_RATE_4": "20"
+        }
+    },
+    {
+        "name": "Roelayne Set (F)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_BIL_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_F_BIL_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_F_BIL_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_F_BIL_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_STR_4": "20",
+            "DST_INT_4": "20",
+            "DST_ADJDEF_RATE_4": "20",
+            "DST_HP_MAX_RATE_4": "20"
+        }
+    },
+    {
+        "name": "Reffiro Set (M)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_PSY_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_M_PSY_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_M_PSY_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_M_PSY_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "20",
+            "DST_MP_MAX_RATE_4": "20",
+            "DST_SPELL_RATE_4": "20",
+            "DST_INT_4": "20"
+        }
+    },
+    {
+        "name": "Rephira Set (F)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_PSY_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_F_PSY_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_F_PSY_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_F_PSY_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_MP_DEC_RATE_4": "20",
+            "DST_MP_MAX_RATE_4": "20",
+            "DST_SPELL_RATE_4": "20",
+            "DST_INT_4": "20"
+        }
+    },
+    {
+        "name": "Lippin Set (M)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_M_ELE_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_M_ELE_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_M_ELE_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_M_ELE_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADDMAGIC_4": "20",
+            "DST_MP_MAX_RATE_4": "20",
+            "DST_SPELL_RATE_4": "20",
+            "DST_INT_4": "20"
+        }
+    },
+    {
+        "name": "Lypine Set (F)",
+        "type": "armor",
+        "parts": {
+            "II_ARM_F_ELE_HELMET_SET_34": "PARTS_CAP",
+            "II_ARM_F_ELE_SUIT_SET_34": "PARTS_UPPER_BODY",
+            "II_ARM_F_ELE_GAUNTLET_SET_34": "PARTS_HAND",
+            "II_ARM_F_ELE_BOOTS_SET_34": "PARTS_FOOT"
+        },
+        "effects": {
+            "DST_ADDMAGIC_4": "20",
+            "DST_MP_MAX_RATE_4": "20",
+            "DST_SPELL_RATE_4": "20",
+            "DST_INT_4": "20"
+        }
+    },
+    {
+        "name": "Soul of the Champion Set",
+        "type": "accesories",
+        "parts": {
+            "II_GEN_JEW_RIN_FIRERING_1": "PARTS_RING1",
+            "II_GEN_JEW_RIN_FIRERING_2": "PARTS_RING2",
+            "II_GEN_JEW_EAR_ATTEARRINGEST_1": "PARTS_EARRING1",
+            "II_GEN_JEW_EAR_ATTEARRINGEST_2": "PARTS_EARRING2",
+            "II_GEN_JEW_NEC_HPNECKLACEMR": "PARTS_NECKLACE1"
+        },
+        "effects": {
+            "DST_HP_MAX_RATE_4": "20",
+            "DST_REFLECT_DAMAGE_4": "50",
+            "DST_BLOCK_MELEE_5": "20"
+        }
+    },
+    {
+        "name": "Soul of the Marksman Set",
+        "type": "accesories",
+        "parts": {
+            "II_GEN_JEW_RIN_ELECTRICRING_1": "PARTS_RING1",
+            "II_GEN_JEW_RIN_ELECTRICRING_2": "PARTS_RING2",
+            "II_GEN_JEW_EAR_RANGERINGEST_1": "PARTS_EARRING1",
+            "II_GEN_JEW_EAR_RANGERINGEST_2": "PARTS_EARRING2",
+            "II_GEN_JEW_NEC_FPNECKLACEMR": "PARTS_NECKLACE1"
+        },
+        "effects": {
+            "DST_STOP_MOVEMENT_4": "20",
+            "DST_CHR_RANGE_4": "2",
+            "DST_KILL_HP_5": "1000"
+        }
+    },
+    {
+        "name": "Soul of the Adept Set",
+        "type": "accesories",
+        "parts": {
+            "II_GEN_JEW_RIN_WATERRING_1": "PARTS_RING1",
+            "II_GEN_JEW_RIN_WATERRING_2": "PARTS_RING2",
+            "II_GEN_JEW_EAR_MAGICRINGEST_1": "PARTS_EARRING1",
+            "II_GEN_JEW_EAR_MAGICRINGEST_2": "PARTS_EARRING2",
+            "II_GEN_JEW_NEC_MPNECKLACEMR": "PARTS_NECKLACE1"
+        },
+        "effects": {
+            "DST_CAST_CRITICAL_RATE_4": "20",
+            "DST_SPELL_RATE_4": "20",
+            "DST_KILL_MP_5": "500"
+        }
+    },
+    {
+        "name": "Soul of the Defender Set",
+        "type": "accesories",
+        "parts": {
+            "II_GEN_JEW_RIN_LANDRING_1": "PARTS_RING1",
+            "II_GEN_JEW_RIN_LANDRING_2": "PARTS_RING2",
+            "II_GEN_JEW_EAR_DEFEARRINGEST_1": "PARTS_EARRING1",
+            "II_GEN_JEW_EAR_DEFEARRINGEST_2": "PARTS_EARRING2",
+            "II_GEN_JEW_NEC_HPMPNECKLACE": "PARTS_NECKLACE1"
+        },
+        "effects": {
+            "DST_HP_RECOVERY_4": "500",
+            "DST_MP_RECOVERY_4": "500",
+            "DST_IMMUNITY_5": "100"
+        }
+    }
+]

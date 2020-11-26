@@ -9,13 +9,14 @@ use Carbon\Carbon;
 class Category extends Model
 {
     public static $statuses = ['active', 'in-active'];
+    public static $types = [1 => 'Menu', 0 => 'Page'];
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'id', 'name', 'description', 'status'
+        'id', 'name', 'description', 'status', 'type', 'content'
     ];
 
     //  public function sub_category()
